@@ -1,0 +1,120 @@
+/*homepage*/
+
+.homepage{
+    margin-top: 2%;
+}
+.slogan{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin: auto
+}
+.home-photo{
+    height: 500px;
+}
+
+/*about us*/
+
+.about-us{
+    margin-top: 3%;
+}
+.about-us-photo{
+    height: 500px;
+}
+.about-us-content{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+}
+.about-us-content>h1{
+    font-style: italic;
+    text-align: center;
+}
+
+/* cards */
+
+.card{
+    margin: 3rem;
+}
+.card-title{
+    font-style: italic;
+}
+.card-text{
+    margin-top: 10%;
+}
+.card-img-top{
+    height: 500px;
+}
+.collection{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.set{
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: 100px ;
+    background-color: #FFDAC0;
+}
+.jewelry-photo{
+    height: 600px;
+    margin: 10px;
+}
+.shop{
+    margin-top: 50px;
+}
+.link-to-more{
+    text-align: center;
+    margin: 20px;
+    font-size: 32px;
+}
+.comment{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.comment>a{
+    color: black;
+}
+
+.game{
+    text-align: center;
+    margin: 3%;
+}
+.link{
+    color: black;
+}
+.link>a{
+    color: black;
+}
+
+/*Contact*/
+
+.contact-page{
+    background-color: #FFDAC0;
+}
+.info{
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 24px;
+}
+.logo{
+    width: 150px; 
+    height: auto; 
+    border-radius: 60%;
+}
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px;
+    border: none;
+    background-color: white;
+  }
+  
+#scrollTopBtn:hover {
+    background-color: #555;
+  }

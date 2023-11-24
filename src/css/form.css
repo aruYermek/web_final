@@ -1,0 +1,42 @@
+.form{
+    margin: 2rem 1rem 0 1rem;
+}
+.title{
+    margin: 2% 0;
+    text-align: center;
+    background-color: #FFDAC0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tab {
+    display: none;
+}
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+.step.active {
+    opacity: 1;
+}
+.step.finish {
+    background-color: #FFDAC0;
+}
+.container-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem; 
+}
+.video {
+    max-width: 100%;
+    height: auto;
+}
+#full-screen {
+    margin-top: 1rem; 
+}

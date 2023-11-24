@@ -1,0 +1,41 @@
+.game {
+    text-align: center;
+    background-color: #FFDAC0;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2% 0;
+}
+.drag-and-drop {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.score {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+.droppable {
+    width: 100px;
+    height: 130px;
+    border: 2px dashed #ccc;
+    margin: 5px;
+}
+.jewelry-draggable {
+    width: 100px;
+    height: 130px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.draggable-items {
+    display: flex;
+    justify-content: center;
+}
+.quiz-container{
+    margin: 20px;
+}
+.form-check{
+    margin: 20px;
+}

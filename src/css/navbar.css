@@ -1,0 +1,20 @@
+/* navigation container */
+.navbar{
+    background-color:white;
+}
+.collapse{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color:  black;
+}
+
+

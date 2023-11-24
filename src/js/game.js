@@ -41,7 +41,7 @@ function dragOver(event) {
 function drop(event) {
     event.preventDefault();
     const draggableElementId = event.dataTransfer.getData("text");
-    const droppableElementFlower = event.target.getAttribute("data-flower");
+    const droppableElementFlower = event.target.getAttribute("data-jewelry");
     const isCorrectMatching = draggableElementId === droppableElementFlower;
     total++;
 
